@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pokemonshop/static/css/main.4f292904.chunk.css",
+    "main.js": "/pokemonshop/static/js/main.3a3390e1.chunk.js",
+    "main.js.map": "/pokemonshop/static/js/main.3a3390e1.chunk.js.map",
+    "runtime-main.js": "/pokemonshop/static/js/runtime-main.850edef0.js",
+    "runtime-main.js.map": "/pokemonshop/static/js/runtime-main.850edef0.js.map",
+    "static/js/2.f24baf76.chunk.js": "/pokemonshop/static/js/2.f24baf76.chunk.js",
+    "static/js/2.f24baf76.chunk.js.map": "/pokemonshop/static/js/2.f24baf76.chunk.js.map",
+    "index.html": "/pokemonshop/index.html",
+    "precache-manifest.bd3da018eeee6f51fd0ee024b498ca3b.js": "/pokemonshop/precache-manifest.bd3da018eeee6f51fd0ee024b498ca3b.js",
+    "service-worker.js": "/pokemonshop/service-worker.js",
+    "static/css/main.4f292904.chunk.css.map": "/pokemonshop/static/css/main.4f292904.chunk.css.map",
+    "static/js/2.f24baf76.chunk.js.LICENSE.txt": "/pokemonshop/static/js/2.f24baf76.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.850edef0.js",
+    "static/js/2.f24baf76.chunk.js",
+    "static/css/main.4f292904.chunk.css",
+    "static/js/main.3a3390e1.chunk.js"
+  ]
+}
