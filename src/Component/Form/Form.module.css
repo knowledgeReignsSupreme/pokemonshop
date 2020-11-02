@@ -1,0 +1,139 @@
+.formWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.formDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.formDiv label {
+  font-weight: bold;
+  margin-bottom: .5rem;
+  font-family: 'Krona One', sans-serif;
+}
+
+
+.formWrapper span {
+  margin-left: 1rem;
+  color: red;
+  font-weight: bold;
+}
+
+.formDiv input {
+  border: 2px solid black;
+  transition: 1s all;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: .5rem;
+  width: 30rem;
+}
+
+.formDiv input:focus {
+  border: 2px solid rgb(255, 51, 51);
+}
+
+.formButton {
+  display: flex;
+  justify-content: center;
+}
+
+.formButton a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.formWrapper a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.formButton button {
+  width: 50%;
+  border-radius: 15px;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+  transition: all .3s;
+  outline: none;
+  cursor: pointer;
+}
+
+.formButton button:hover {
+  background-image: linear-gradient(to right bottom, rgb(250, 25, 25), rgb(246, 178, 178));
+  color: white;
+  transform: translateY(-5px);
+  box-shadow: 3px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.formButton button:focus {
+  box-shadow: .5px 1px 1px rgba(0, 0, 0, 0.3);
+  transform: translateY(0);
+}
+
+.confirmationWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.confirmationHeader {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.confirmationSubHeader {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.confirmationSubHeader:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.confirmationWrapper a {
+  text-decoration: none;
+  color: red
+}
+
+.confirmationWrapper a:hover {
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .formDiv input {
+    width: 100%;
+  } 
+  .confirmationHeader {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .confirmationSubHeader {
+    font-size: .8rem;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 1000px){
+  .confirmationHeader {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  .confirmationSubHeader {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+}
