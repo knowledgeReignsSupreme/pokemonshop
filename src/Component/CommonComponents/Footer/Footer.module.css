@@ -1,0 +1,82 @@
+.footerContainer{
+  font-family: Krona One, sans-serif;
+  display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   background-image: linear-gradient(to right bottom, rgb(255, 98, 98), white);
+   list-style: none;
+   text-decoration: none;
+ }
+
+ .footerContainer h4{
+  margin: 1rem 0;
+ }
+ .listContainer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+
+ .listContainer li{
+   margin-bottom: .5rem;
+   cursor: pointer;
+   list-style: none;
+ }
+ 
+.footerContainer li:not(:last-child){
+  margin-bottom: .5rem;
+}
+
+ .footerContainer a{
+   text-decoration: none;
+   color: inherit;
+ }
+ 
+ .footerContainer li:hover{
+  color: white;
+  font-weight: bold;
+  transition: all .1s;
+  transform: scale(1.2);
+ }
+
+ .footerContainer h6{
+   margin-bottom: .5rem;
+   margin-top: 0;
+ }
+
+ .listContainer li .active {
+  color: #fff;
+  font-weight: bold;
+  transform: scale(1.5);
+
+}
+.iconContainer{
+  margin-bottom: .5rem;
+    font-size: 1rem;
+    margin-top: -.5rem;
+    margin-bottom: 1rem;
+
+
+}
+.git{
+font-size: 1.3rem;
+margin-left: .5rem;
+border-radius: 50%;
+cursor: pointer;
+vertical-align: middle;
+}
+
+.git:hover{
+  color: white;
+  font-weight: bold;
+  background-color: black;
+}
+
+@media (max-width: 600px){
+  .footerContainer{
+    font-size: 70%;
+    
+  }
+}

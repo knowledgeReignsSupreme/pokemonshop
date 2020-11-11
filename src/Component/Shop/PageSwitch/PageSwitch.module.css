@@ -1,0 +1,29 @@
+.PageSwitchContainer { 
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.pageSwitchButton {
+  font-family: Krona One sans-serif;
+  background-color: lightgray;
+  font-weight: bold;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: none;
+  padding: .2rem .5rem;
+}
+
+.PageSwitchContainer button:not(:last-of-type) {
+  margin-right: .3rem;
+}
+
+.PageSwitchContainer button.activeButton {
+  background-image: linear-gradient(to right bottom, rgb(255, 98, 98), white);
+  color: white;
+}
+
+.pageSwitchButton:hover{
+  transform: translateY(-.3rem);
+}
